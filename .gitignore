@@ -10,3 +10,14 @@ venv/
 # 图标是 tools/make_icons.py 生成的，不入库
 assets/*.ico
 !assets/.gitkeep
+
+# 安卓
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/keystore.properties
+android/keystore/
+*.apk
+*.aab
+*.jks

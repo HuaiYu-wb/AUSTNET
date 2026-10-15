@@ -3,6 +3,9 @@
 Windows 上的校园网自动登录客户端。填一次学号和密码，之后开机自动认证、掉线自动重连，
 平时缩在系统托盘里。
 
+本仓库同时放着 [安卓版](android/README.md)（AUST网络），它的定位不一样：点开就连、
+不常驻后台。
+
 ## 它能做什么
 
 - 自动区分**有线**还是 **WiFi**，WiFi 场景会读出当前 SSID 和网卡
@@ -167,6 +170,21 @@ GET /drcom/logout?callback=dr1004
 ```powershell
 python -m unittest discover -s tests -v
 ```
+
+## 安卓版
+
+同一套认证协议的另一端实现，Kotlin + 原生视图，详见 [android/README.md](android/README.md)。
+
+| | 桌面版 | 安卓版 |
+| --- | --- | --- |
+| 打开即自动登录 | 是 | 是 |
+| 断线自动重连 | 是 | 不做 |
+| 后台常驻 | 系统托盘 | 不做 |
+| 开机自启 | 是 | 不做 |
+| 换底色 | 否 | 八种浅色可选 |
+
+两端共用同一份协议认知：`GET /drcom/login` 是唯一实测通道（参数里没有 `R2`），
+成功与否一律以 `/drcom/chkstatus` 复核。改认证逻辑时两边要一起改。
 
 ## 免责声明
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  认证网关只有明文 HTTP，安卓 9 起默认禁掉明文流量，所以必须在这里开口子。
+  只放行这两个校内网关地址，其余仍然禁止明文。
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.255.0.19</domain>
+        <domain includeSubdomains="false">172.24.34.2</domain>
+    </domain-config>
+</network-security-config>
+

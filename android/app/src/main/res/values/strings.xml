@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AUST网络</string>
+    <string name="credit">huaiyu · v0.1.0</string>
+
+    <string name="status_idle">准备就绪</string>
+    <string name="status_checking">正在检测…</string>
+    <string name="label_account">学号 / 工号</string>
+    <string name="label_password">密码</string>
+    <string name="label_exit">登录出口</string>
+    <string name="hint_exit">可手填后缀</string>
+    <string name="action_connect">连接</string>
+    <string name="action_connecting">连接中…</string>
+    <string name="label_remember">在本机保存密码</string>
+    <string name="label_theme">底色</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AUSTNET" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_blue</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">@color/brand_blue_light</item>
+        <item name="colorOnPrimaryContainer">@color/brand_blue_dark</item>
+        <item name="colorSecondary">@color/brand_pink_deep</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/brand_pink</item>
+        <item name="android:statusBarColor">@color/brand_pink</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/brand_pink</item>
+    </style>
+
+    <style name="ExitDropdown" parent="Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
+

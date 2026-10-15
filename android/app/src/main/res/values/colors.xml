@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 取自图标：淡粉底 + 浅蓝标志 -->
+    <color name="ic_launcher_background">#FEE7EF</color>
+    <color name="brand_pink">#FEE7EF</color>
+    <color name="brand_pink_deep">#F7D2DF</color>
+    <color name="brand_blue">#5B8DB8</color>
+    <color name="brand_blue_dark">#47708F</color>
+    <color name="brand_blue_light">#D6E8F5</color>
+
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#22303A</color>
+    <color name="text_secondary">#6B7A87</color>
+    <color name="state_ok">#3F7F5F</color>
+    <color name="state_warn">#A9701F</color>
+    <color name="state_bad">#B2453F</color>
+</resources>
+
