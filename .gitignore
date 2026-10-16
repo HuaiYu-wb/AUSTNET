@@ -21,3 +21,10 @@ android/keystore/
 *.apk
 *.aab
 *.jks
+
+# 下载页和部署脚本是个人内容（含域名、服务器地址、路径），不入库
+web/
+deploy/
+
+# 本地用的 SSH 私钥，绝对不能进仓库
+.ssh/
