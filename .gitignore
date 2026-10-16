@@ -26,5 +26,10 @@ android/keystore/
 web/
 deploy/
 
+# 本地监控面板：代码里写死了服务器地址和你自己的宽带 IP，不入库
+tools/austnet-monitor.py
+tools/monitor-dashboard.html
+监控面板.bat
+
 # 本地用的 SSH 私钥，绝对不能进仓库
 .ssh/
